@@ -1,0 +1,12 @@
+CREATE DATABASE ARQUI2;
+
+USE ARQUI2;
+
+CREATE TABLE sensores (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    topic VARCHAR(100),
+    valor VARCHAR(100),
+    fecha DATETIME
+);
+
+SELECT * FROM sensores;
